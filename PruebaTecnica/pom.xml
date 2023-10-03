@@ -28,5 +28,15 @@
         <version>7.14.0</version>
         <scope>test</scope>
     </dependency>
+    <dependency>
+	    <groupId>net.serenity-bdd</groupId>
+	    <artifactId>serenity-screenplay-webdriver</artifactId>
+	    <version>4.0.14</version>
+    </dependency>
+    <dependency>
+	    <groupId>net.serenity-bdd</groupId>
+	    <artifactId>core</artifactId>
+	    <version>1.0.47</version>
+    </dependency>
   </dependencies>
 </project>

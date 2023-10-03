@@ -26,7 +26,6 @@ public class UtestJoin {
 		driver.get("https://utest.com/");
 	}
 
-	@SuppressWarnings("deprecation")
 	@Test
 	@Cuando("Registro datos")
 	public void UtestPage() throws InterruptedException {

@@ -1,10 +1,7 @@
-#language: es
-Característica: Registrar formulario para un cliente nuevo con datos actualizados
+Feature: Utest Registration
 
-Escenario: Registro con datos validos
-Dado la pagina Utest.com este disponible
-Cuando registro mis datos
-
- 
-
-
+  Scenario: Santiago registers with his name
+    Given Santiago is on the Utest homepage
+    When Santiago clicks the Join Today button
+    Then Santiago enters his name as "Santiago"
+    Then Santiago should see the registration page
